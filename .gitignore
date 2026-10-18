@@ -1,0 +1,17 @@
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+backend/.env
+frontend/.env.local
+
+# Local databases, caches, and generated output
+backend/*.db
+backend/*.sqlite*
+__pycache__/
+**/__pycache__/
+.pytest_cache/
+**/.pytest_cache/
+frontend/node_modules/
+frontend/dist/
+*.py[cod]
