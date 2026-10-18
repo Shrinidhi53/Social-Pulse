@@ -18,7 +18,7 @@ THEMATIC_QUERIES = [
     '"vocational training"', '"youth employability" India', 'NGO skilling India',
     '"seeking partners" skills India',
     '"AWS course"', '"AWS certification"', '"cloud course"', '"cloud training"',
-    '"interested in AWS"', '"course suggestions" skills',
+    '"interested in AWS"', '"course suggestions" skills', "CyberSecurity"
 ]
 THEMATIC_TERMS = re.compile(
     r"\b(skill development|vocational training|employability|job readiness|youth employment|"
