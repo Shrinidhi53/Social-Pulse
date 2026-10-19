@@ -10,7 +10,6 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-6.0-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![Ollama](https://img.shields.io/badge/Ollama-Phi--3%20%7C%20Llama--3.1-black?style=for-the-badge&logo=ollama&logoColor=white)](https://ollama.ai/)
 [![SQLite](https://img.shields.io/badge/SQLite-SQLModel-003B57?style=for-the-badge&logo=sqlite&logoColor=white)](https://sqlmodel.tiangolo.com/)
-[![Hackathon](https://img.shields.io/badge/Tata%20STRIVE-Hackathon%202.0-E21B22?style=for-the-badge)](https://tatastrive.com/)
 
 <p align="center">
   <b>Social Pulse</b> transforms scattered public conversations into actionable, verified, and contextual intelligence. Built specifically for youth skill-development and vocational employability initiatives (initially spotlighting <b>Tata STRIVE</b>), it combines multi-channel public listening with private, local LLM evaluation and a human-in-the-loop decision console.
@@ -303,11 +302,4 @@ npm run lint
 npm run build
 ```
 
----
 
-## 👥 Acknowledgements & Contributors
-
-Developed as part of the **Tata STRIVE Hackathon 2.0** by **Team 3**.
-
-- **Organization:** [Tata Community Initiatives Trust (TCIT) - Tata STRIVE](https://tatastrive.com/)
-- **Mission:** Empowering India's youth through excellence in vocational training, skill-building, and digital employability innovation.
