@@ -245,7 +245,7 @@ function App() {
   return (
     <div className="app-shell">
       <aside className="sidebar">
-        <div className="brand"><div className="brand-mark"><Activity size={22} /></div><div><h1>social pulse</h1><span>SOCIAL LISTENING</span></div></div>
+        <div className="brand"><div className="brand-mark"><Activity size={22} /></div><div><h1>Social Pulse</h1><span>SOCIAL LISTENING</span></div></div>
         <nav className="navigation" aria-label="Main navigation">{navigationGroups.map((group) => <div className="nav-group" key={group.title}><div className="workspace-label">{group.title}</div>{group.items.map(({ label: item, icon: Icon }) => <button key={item} title={item} aria-current={activeNav === item ? 'page' : undefined} className={`nav-item ${activeNav === item ? 'active' : ''}`} onClick={() => setActiveNav(item)}><Icon size={18} /><span>{item}</span>{item === 'Reply Center' && drafts.length > 0 && <span className="nav-count">{drafts.length}</span>}{item === 'Training Opportunities' && opportunities.length > 0 && <span className="nav-count">{opportunities.length}</span>}</button>)}</div>)}</nav>
         <div className="sidebar-bottom"><div className="profile"><div className="avatar">SP</div><div className="profile-copy"><strong>Social Pulse</strong><span>Tata STRIVE workspace</span></div></div></div>
       </aside>

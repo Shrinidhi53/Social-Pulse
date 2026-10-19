@@ -8,6 +8,7 @@ frontend/.env.local
 # Local databases, caches, and generated output
 backend/*.db
 backend/*.sqlite*
+backend/*.sqlite*-*
 __pycache__/
 **/__pycache__/
 .pytest_cache/
@@ -15,3 +16,19 @@ __pycache__/
 frontend/node_modules/
 frontend/dist/
 *.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Log files
+*.log
+backend/*.log
+
+# OS & Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
